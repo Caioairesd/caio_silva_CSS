@@ -1,0 +1,38 @@
+header {
+    background-color: yellow;
+    height: 250px;
+    border: 1px solid black;
+}
+
+footer {
+    
+    background-color:darkgreen;
+    padding: 20px;
+    border: 1px solid black;
+
+
+}
+
+.esquerda {
+    
+    background-color: cadetblue;
+    height: 600px;
+    width: 10%;
+    border: 1px solid black;
+    }
+
+.direita {
+    height: 600px;
+    background-color: salmon;
+    width: 90%;
+    border: 1px solid black;
+
+}
+
+li {
+    text-align: left
+}
+
+.meio{
+    display:flex ;
+}
