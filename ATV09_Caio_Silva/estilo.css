@@ -6,6 +6,11 @@
 .poema{
     text-align: left;
     font-family: arial;
-    font-size: 1;
+    font-size: 15px;
     color:blue;
+}
+img{
+    align-items: center;
+    width: 250px;
+    height: 400px;
 }
