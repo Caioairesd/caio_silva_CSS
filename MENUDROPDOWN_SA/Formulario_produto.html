@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de produto</title>
+    <script src="validacao.js"></script>
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 
@@ -33,7 +34,7 @@
                 <tr align="left">
 
                     <td><label for="nome_jogo">Nome do jogo</label></td>
-                    <td><input type="text" id="nome_jogo" name="nome_jogo"></td>
+                    <td><input type="text" id="nome_jogo" name="nome_jogo" ></td>
                 </tr>
 
                 <tr align="left">
@@ -44,7 +45,7 @@
 
                 <tr align="left">
                     <td><label for="cat_jogo">Categoria do jogo</label></td>
-                    <td><input type="text" id="cat_jogo" name="cat_jogo"></td>
+                    <td><input type="text" id="cat_jogo" name="cat_jogo" required onkeypress="mascara(this,catjogo)"></td>
 
 
                 </tr>
@@ -61,7 +62,7 @@
                 </tr>
                 <tr align="left">
                     <td><label for="preco">Preço </label></td>
-                    <td><input type="text" id="preco" name="preco"></td>
+                    <td><input type="text" id="preco" name="preco" required onkeypress="mascara(this,'preco')"></td>
 
                 </tr>
                 <tr align="left">

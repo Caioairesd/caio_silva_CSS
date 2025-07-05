@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Fornecedor</title>
-
+    <script src="validacao.js"></script>
     <link rel="stylesheet" type="text/CSS" href="estilo.css" media="all">
 </head>
 
@@ -41,7 +41,7 @@
 
                 <tr align="left">
                     <td><label for="cnpj_fornecedor">CNPJ:</label></td>
-                    <td><input type="text" id="cnpj_fornecedor" name="cnpj_fornecedor" required></td>
+                    <td><input type="text" id="cnpj_fornecedor" name="cnpj_fornecedor" required onkeypress="mascara(this,cnpj)"></td>
                 </tr>
 
                 <tr align="left">
